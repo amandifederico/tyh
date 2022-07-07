@@ -1,15 +1,15 @@
 class Ventas{
-    _cliente = null;
+    cliente = null;
 
-    _estado = null;
+    estado = null;
 
-    _fecha_venta = null;
+    fecha_venta = null;
 
-    _fecha_pago = null;
+    fecha_pago = null;
 
-    _fecha_entrega = null;
+    fecha_entrega = null;
 
-    _productos = [];
+    productos = [];
 
 
     constructor (fecha_venta) {
@@ -62,3 +62,4 @@ class Ventas{
     }
 
 }
+modeule.exports = Ventas;
